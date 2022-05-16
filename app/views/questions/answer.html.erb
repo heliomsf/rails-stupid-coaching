@@ -1,0 +1,12 @@
+<h1>STUPID COACHING!</h1>
+
+<div class="container-fluid border-start border-5 fs-5">
+  <p><%= @question %></p>
+  <p><i>-You</i></p>
+</div>
+
+<div class="border-start border-4 p-3 mb-2 bg-warning text-dark" style="--bs-bg-opacity: .1;">
+  <p><%= @answer %></p>
+</div>
+<p><i>-Your coach</i></p>
+<p><%= link_to "Ask a new question", ask_path %></p>
